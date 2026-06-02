@@ -2,7 +2,7 @@ package krill.dominio;
 
 public class Estoque {
     Produto[] estoque = new Produto[10];
-    public Estoque(){
+    {
         estoque[0] = new Produto("Bife", 19.90, "Carnes");
         estoque[1] = new Produto("Alface", 5, "Legumes e Verduras");
         estoque[2] = new Produto("Detergente", 3.40, "Limpeza");
